@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Beltus Nkwawir"
-  avatar           : "/assets/images/opt_passport.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : Using AI and data science to improve Public Health Intelligence systems and contribute to a sustainable world #"Just a wonderer in this place called universe" #"Offers machines the opportunity to experience our world" #"Beltus spends his time trying to understand the world he lives in, then translates that to machines in a simple yet elegant way"
   location         : "Berlin"
   email            :
