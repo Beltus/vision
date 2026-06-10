@@ -1,586 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beltus Nkwawir — AI Researcher & Data Scientist</title>
-  <meta name="description" content="Research Associate and Data Scientist at Robert Koch Institute. I build agentic AI systems for public health and write about AI, machine learning, and personal growth." />
+---
+layout: home
+author_profile: true
+header:
+  image: "https://cdn-images-1.medium.com/max/800/1*JONzm2N8eVeNdAOSXipRZw.jpeg"
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+redirect_from:
+  - /about/
 
-  <!-- Mailchimp styles (kept for form compatibility) -->
-  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" />
+---
 
-  <style>
-    /* ── Reset & base ── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<h1><center>Welcome to my blog</center> </h1>
 
-    :root {
-      --amber:       #F5A623;
-      --amber-dark:  #c27e0e;
-      --amber-btn-text: #1a0e00;
-      --bg:          #ffffff;
-      --bg-soft:     #F7F6F3;
-      --text:        #111111;
-      --text-muted:  #5a5a5a;
-      --text-faint:  #888888;
-      --border:      rgba(0,0,0,0.10);
-      --border-mid:  rgba(0,0,0,0.18);
-      --radius-md:   8px;
-      --radius-lg:   14px;
-      --max-w:       680px;
-    }
+<img src="https://beltus.github.io/vision/assets/images/beltus.jpg" alt="Picture of Beltus Nkwawir">
+<p></p>
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg:         #111111;
-        --bg-soft:    #1c1c1c;
-        --text:       #f0ede6;
-        --text-muted: #a0a0a0;
-        --text-faint: #666666;
-        --border:     rgba(255,255,255,0.10);
-        --border-mid: rgba(255,255,255,0.18);
-      }
-    }
 
-    body {
-      font-family: 'Inter', system-ui, sans-serif;
-      font-size: 16px;
-      line-height: 1.75;
-      background: var(--bg);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
-    }
+<p>Hi, I'm <b>Beltus Nkwawir</b>. I work as a Research Associate and Data Scientist at the Robert Koch Institute's Center for Artificial Intelligence in Public Health Research in Berlin Germany.
 
-    /* ── Layout ── */
-    .page {
-      max-width: var(--max-w);
-      margin: 0 auto;
-      padding: 0 1.5rem 4rem;
-    }
+<p>I design and build agentic AI systems powered by large language models to help people find critical and accurate health knowledge faster.</p>
 
-    /* ── Nav bar ── */
-    .nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.25rem 0;
-      border-bottom: 0.5px solid var(--border);
-      margin-bottom: 0;
-    }
 
-    .nav-logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--text);
-      text-decoration: none;
-    }
+For more than a decade, I have been working in AI, Data Science, and their associated fields.
 
-    .nav-links {
-      display: flex;
-      gap: 1.5rem;
-      list-style: none;
-    }
+But my journey didn't start in AI. 
 
-    .nav-links a {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--text-muted);
-      text-decoration: none;
-      transition: color 0.15s;
-    }
+It started as a Telecommunications Engineering major, where I earned my Bachelor's Degree from the University of Buea, Cameroon.
 
-    .nav-links a:hover { color: var(--text); }
+It build the neccessary engineering foundations in mathematics, programming, systems thinking, understanding and solving problems from first principle.
 
-    /* ── Hero ── */
-    .hero {
-      padding: 3.5rem 0 3rem;
-      border-bottom: 0.5px solid var(--border);
-      margin-bottom: 3rem;
-    }
+From 2017, where I was introduced to AI via the Udacity Online Platform, it sparked my passion for AI as I could see it's potential in transforming every facet of our lives.
 
-    .eyebrow {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--text-faint);
-      margin-bottom: 1rem;
-    }
+That led me to pursuing a Masters in Computer Science at Turkiye's oldest and most prestigious university, Istanbul Technical University (ITU) as a fully-funded scholar of the 
+Turkish Government Scholarship Programme.
 
-    .hero-name {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(38px, 8vw, 54px);
-      font-weight: 700;
-      line-height: 1.08;
-      margin-bottom: 1.25rem;
-      color: var(--text);
-    }
+While working in Berlin, I'm also a PhD candidate at ITU in Türkiye, where my research aims to solve two pressing 
+challenges of in the domain of Data Centers: Soaring operational costs of Data Centers and their Equivalent Carbon Emissions.
 
-    .hero-tagline {
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 1.65;
-      color: var(--text-muted);
-      max-width: 520px;
-      margin-bottom: 2rem;
-    }
+I have had the incredible opportunity of working on projects across and with multiple international organisations including United Nations Development Programme in Istanbul, and World Health Organization Hub in Berlin using
+AI and Data science to solve Sustainability issues, build capacity, and strengthen global pandemic and epidemic intelligence systems.
 
-    .hero-tagline em {
-      font-style: italic;
-      color: var(--text);
-    }
+<h2> What I write about</h2>
 
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
+<p>This site is my little corner on the internet where I share what I learn. Specifically about:</p>
 
-    .chip {
-      font-size: 12px;
-      font-weight: 500;
-      padding: 4px 13px;
-      border-radius: 999px;
-      border: 0.5px solid var(--border-mid);
-      color: var(--text-muted);
-      background: var(--bg-soft);
-    }
+<ul>
+  <li>1. AI, machine learning, and data science related topics</li>
+  <li>2. Systems to personal growth from my lived experiences </li>
+</ul>
 
-    /* ── Sections ── */
-    .section {
-      margin-bottom: 3rem;
-    }
+ Few More Things About Me
+🌍 I speak English, French, and Turkish fluently — and two local languages, Lamnso and Pidgin. German is next on the list.
+📚 I'm an avid reader of non-fiction — history, psychology, philosophy, science. Books are how I make sense of the world.
+🎵 Born and raised in Cameroon, I carry the rhythm of African music everywhere I go.
 
-    .section-label {
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 0.13em;
-      text-transform: uppercase;
-      color: var(--text-faint);
-      padding-bottom: 0.75rem;
-      border-bottom: 0.5px solid var(--border);
-      margin-bottom: 1.5rem;
-    }
+Welcome to my corner of the internet. I'm glad you're here.
 
-    .prose {
-      font-size: 16px;
-      line-height: 1.8;
-      color: var(--text);
-      margin-bottom: 1rem;
-    }
 
-    .prose:last-child { margin-bottom: 0; }
+<p>If you enjoy reading any of articles and would like to collaborate with me for future articles and projects
+don't hesitate to contact me via <a href = "https://www.linkedin.com/in/beltus/"> LinkedIn </a></p>
 
-    .prose-hook {
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      font-size: 19px;
-      color: var(--text);
-      margin-bottom: 1.25rem;
-    }
 
-    /* ── Journey timeline ── */
-    .journey {
-      position: relative;
-      padding-left: 1.75rem;
-      border-left: 2px solid var(--amber);
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
+<!-- Map Revolver API -->
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5chr4f7nmhk&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
 
-    .stop {
-      position: relative;
-    }
-
-    .stop::before {
-      content: '';
-      position: absolute;
-      left: -2.125rem;
-      top: 5px;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--amber);
-      border: 2.5px solid var(--bg);
-      outline: 1.5px solid var(--amber);
-    }
-
-    .stop-place {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--text-faint);
-      margin-bottom: 0.3rem;
-    }
-
-    .stop-title {
-      font-size: 15px;
-      font-weight: 500;
-      color: var(--text);
-      margin-bottom: 0.35rem;
-    }
-
-    .stop-body {
-      font-size: 14px;
-      line-height: 1.65;
-      color: var(--text-muted);
-    }
-
-    /* ── Writes grid ── */
-    .writes-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-
-    @media (max-width: 480px) {
-      .writes-grid { grid-template-columns: 1fr; }
-    }
-
-    .write-card {
-      background: var(--bg-soft);
-      border-radius: var(--radius-lg);
-      padding: 1.1rem 1.25rem;
-      border: 0.5px solid var(--border);
-    }
-
-    .write-icon {
-      font-size: 22px;
-      margin-bottom: 0.6rem;
-      line-height: 1;
-    }
-
-    .write-title {
-      font-size: 14px;
-      font-weight: 500;
-      color: var(--text);
-      margin-bottom: 0.35rem;
-    }
-
-    .write-desc {
-      font-size: 13px;
-      line-height: 1.6;
-      color: var(--text-muted);
-    }
-
-    /* ── Facts ── */
-    .facts {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .fact {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      font-size: 14px;
-      line-height: 1.65;
-      color: var(--text-muted);
-    }
-
-    .fact-icon {
-      font-size: 17px;
-      color: var(--amber);
-      flex-shrink: 0;
-      margin-top: 1px;
-    }
-
-    /* ── CTA / Subscribe ── */
-    .cta-box {
-      background: var(--bg-soft);
-      border-radius: var(--radius-lg);
-      border: 0.5px solid var(--border);
-      padding: 2.25rem 2rem;
-      text-align: center;
-      margin-top: 3.5rem;
-    }
-
-    .cta-headline {
-      font-family: 'Playfair Display', serif;
-      font-size: 24px;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 0.5rem;
-    }
-
-    .cta-sub {
-      font-size: 14px;
-      color: var(--text-muted);
-      margin-bottom: 1.5rem;
-    }
-
-    /* Mailchimp form override */
-    #mc_embed_signup {
-      background: transparent !important;
-      clear: both;
-      font-family: 'Inter', sans-serif !important;
-      width: 100% !important;
-    }
-
-    #mc_embed_signup form {
-      display: flex;
-      justify-content: center;
-    }
-
-    #mc_embed_signup_scroll {
-      display: flex;
-      gap: 8px;
-      max-width: 420px;
-      width: 100%;
-      align-items: center;
-    }
-
-    #mc_embed_signup label {
-      display: none;
-    }
-
-    #mc_embed_signup input.email {
-      flex: 1;
-      height: 40px;
-      padding: 0 14px;
-      font-size: 14px;
-      border-radius: var(--radius-md);
-      border: 0.5px solid var(--border-mid);
-      background: var(--bg);
-      color: var(--text);
-      outline: none;
-      font-family: 'Inter', sans-serif;
-      transition: border-color 0.15s;
-    }
-
-    #mc_embed_signup input.email:focus {
-      border-color: var(--amber);
-    }
-
-    #mc_embed_signup input[type="submit"] {
-      height: 40px;
-      padding: 0 18px;
-      font-size: 13px;
-      font-weight: 500;
-      background: var(--amber);
-      color: var(--amber-btn-text);
-      border: none;
-      border-radius: var(--radius-md);
-      cursor: pointer;
-      font-family: 'Inter', sans-serif;
-      white-space: nowrap;
-      transition: background 0.15s;
-    }
-
-    #mc_embed_signup input[type="submit"]:hover {
-      background: var(--amber-dark);
-    }
-
-    .linkedin-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      margin-top: 1.25rem;
-      font-size: 13px;
-      color: var(--text-muted);
-      text-decoration: none;
-      border-bottom: 0.5px solid var(--border-mid);
-      padding-bottom: 1px;
-      transition: color 0.15s;
-    }
-
-    .linkedin-link:hover { color: var(--text); }
-
-    /* ── Footer ── */
-    .footer {
-      margin-top: 4rem;
-      padding-top: 1.5rem;
-      border-top: 0.5px solid var(--border);
-      font-size: 12px;
-      color: var(--text-faint);
-      text-align: center;
-    }
-
-    /* ── Utilities ── */
-    .divider {
-      height: 0.5px;
-      background: var(--border);
-      margin: 0 0 3rem;
-    }
-
-    @media (max-width: 600px) {
-      .nav-links { display: none; }
-      .hero { padding: 2.5rem 0 2rem; }
-      .cta-box { padding: 1.75rem 1.25rem; }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      * { transition: none !important; }
-    }
-  </style>
-</head>
-
-<body>
-  <div class="page">
-
-    <!-- Nav -->
-    <nav class="nav" aria-label="Site navigation">
-      <a href="/" class="nav-logo">Beltus Nkwawir</a>
-      <ul class="nav-links">
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="https://www.linkedin.com/in/beltus/" target="_blank" rel="noopener">LinkedIn</a></li>
-      </ul>
-    </nav>
-
-    <!-- Hero -->
-    <header class="hero">
-      <p class="eyebrow">Research Associate &middot; Data Scientist &middot; Berlin, Germany</p>
-      <h1 class="hero-name">Beltus<br>Nkwawir</h1>
-      <p class="hero-tagline">
-        I build <em>AI systems that help people find life-saving health knowledge faster</em> &mdash; and I write about what I learn along the way.
-      </p>
-      <div class="chips" role="list" aria-label="Affiliations">
-        <span class="chip" role="listitem">Robert Koch Institute</span>
-        <span class="chip" role="listitem">WHO &middot; UNDP Alumni</span>
-        <span class="chip" role="listitem">PhD Candidate, ITU</span>
-        <span class="chip" role="listitem">Cameroonian in Berlin</span>
-      </div>
-    </header>
-
-    <!-- The story -->
-    <section class="section" aria-labelledby="story-label">
-      <p class="section-label" id="story-label">The story so far</p>
-      <p class="prose-hook">I didn&rsquo;t start in AI. I started with antennas.</p>
-      <p class="prose">Growing up in Cameroon, I studied Telecommunications Engineering at the University of Buea &mdash; learning how signals travel, how systems talk to each other, how to solve hard problems from first principles. That foundation turned out to be more useful than I ever imagined.</p>
-      <p class="prose">In 2017, a course on Udacity introduced me to artificial intelligence. Something clicked. I could see AI&rsquo;s potential to change everything &mdash; healthcare, climate, how we learn, how we work. I became obsessed.</p>
-      <p class="prose">What followed was a decade of relentless curiosity, crossing continents, institutions, and disciplines.</p>
-    </section>
-
-    <!-- Journey timeline -->
-    <section class="section" aria-labelledby="journey-label">
-      <p class="section-label" id="journey-label">The journey</p>
-      <div class="journey">
-
-        <div class="stop">
-          <p class="stop-place">Buea, Cameroon</p>
-          <p class="stop-title">Telecommunications Engineering, University of Buea</p>
-          <p class="stop-body">Built the math, programming, and systems-thinking foundation that still informs everything I do today.</p>
-        </div>
-
-        <div class="stop">
-          <p class="stop-place">2017 &mdash; The spark</p>
-          <p class="stop-title">First encounter with AI, via Udacity</p>
-          <p class="stop-body">A single course changed my direction completely. I saw that AI wasn&rsquo;t just a technology &mdash; it was a way to solve problems at a scale I&rsquo;d never imagined before.</p>
-        </div>
-
-        <div class="stop">
-          <p class="stop-place">Istanbul, T&uuml;rkiye</p>
-          <p class="stop-title">MSc Computer Science, Istanbul Technical University</p>
-          <p class="stop-body">Fully funded by the Turkish Government Scholarship Programme. Deepened my expertise in AI and machine learning at one of T&uuml;rkiye&rsquo;s oldest and most prestigious universities.</p>
-        </div>
-
-        <div class="stop">
-          <p class="stop-place">Istanbul &rarr; Berlin</p>
-          <p class="stop-title">United Nations Development Programme &middot; WHO Hub Berlin</p>
-          <p class="stop-body">Applied AI to real-world sustainability challenges and global health &mdash; building tools that strengthen pandemic and epidemic intelligence systems worldwide.</p>
-        </div>
-
-        <div class="stop">
-          <p class="stop-place">Now &mdash; Berlin &amp; ITU</p>
-          <p class="stop-title">Research Associate at Robert Koch Institute &middot; PhD Candidate</p>
-          <p class="stop-body">I design agentic AI systems powered by large language models for public health research, while my PhD tackles two urgent problems: soaring data center energy costs and their carbon emissions.</p>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="divider" role="separator"></div>
-
-    <!-- What I write -->
-    <section class="section" aria-labelledby="writes-label">
-      <p class="section-label" id="writes-label">What I write about</p>
-      <div class="writes-grid">
-        <div class="write-card">
-          <div class="write-icon" aria-hidden="true">&#129504;</div>
-          <p class="write-title">AI, ML &amp; data science</p>
-          <p class="write-desc">Practical insights on building intelligent systems &mdash; from research papers to real deployments.</p>
-        </div>
-        <div class="write-card">
-          <div class="write-icon" aria-hidden="true">&#129517;</div>
-          <p class="write-title">Personal growth</p>
-          <p class="write-desc">Hard-won lessons from a decade of living across cultures, chasing goals, and learning from failure.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- A few more things -->
-    <section class="section" aria-labelledby="facts-label">
-      <p class="section-label" id="facts-label">A few more things</p>
-      <div class="facts">
-        <div class="fact">
-          <span class="fact-icon" aria-hidden="true">&#127760;</span>
-          <span>Fluent in English, French, and Turkish &mdash; plus Lamnso and Pidgin from home. German is next on the list.</span>
-        </div>
-        <div class="fact">
-          <span class="fact-icon" aria-hidden="true">&#128218;</span>
-          <span>Avid reader of non-fiction: history, philosophy, psychology, science. Books are how I make sense of the world.</span>
-        </div>
-        <div class="fact">
-          <span class="fact-icon" aria-hidden="true">&#127926;</span>
-          <span>Born and raised in Cameroon &mdash; African music is always playing somewhere nearby.</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Subscribe CTA -->
-    <div class="cta-box">
-      <p class="cta-headline">Come grow with me</p>
-      <p class="cta-sub">New essays on AI, life, and curiosity &mdash; straight to your inbox.</p>
-
-      <!-- Mailchimp Signup Form -->
-      <div id="mc_embed_signup">
-        <form action="https://github.us18.list-manage.com/subscribe/post?u=af24155f302fd6d6bb6913dc9&amp;id=7833f07b03"
-              method="post"
-              id="mc-embedded-subscribe-form"
-              name="mc-embedded-subscribe-form"
-              target="_blank"
-              novalidate>
-          <div id="mc_embed_signup_scroll">
-            <label for="mce-EMAIL">Join me, let&rsquo;s grow together</label>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your@email.com" required />
-            <!-- Bot protection — do not remove -->
-            <div style="position:absolute;left:-5000px;" aria-hidden="true">
-              <input type="text" name="b_af24155f302fd6d6bb6913dc9_7833f07b03" tabindex="-1" value="" />
-            </div>
-            <div class="clear">
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
-            </div>
-          </div>
-        </form>
-      </div>
-      <!-- End Mailchimp Signup Form -->
-
-      <a href="https://www.linkedin.com/in/beltus/" class="linkedin-link" target="_blank" rel="noopener">
-        &#x1F517; Connect on LinkedIn
-      </a>
+Don't forget to subscribe below and be part of an amazing journey.
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://github.us18.list-manage.com/subscribe/post?u=af24155f302fd6d6bb6913dc9&amp;id=7833f07b03" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Join me let's grow together!</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af24155f302fd6d6bb6913dc9_7833f07b03" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
+</form>
+</div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>&copy; <span id="year"></span> Beltus Nkwawir &middot; Berlin, Germany</p>
-    </footer>
-
-  </div>
-
-  <!-- Map counter (optional — remove if not needed) -->
-  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5chr4f7nmhk&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async></script>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-
-</body>
-</html>
+<!--End mc_embed_signup-->
