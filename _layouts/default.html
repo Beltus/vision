@@ -31,24 +31,18 @@
 
     <div id="footer" class="page__footer">
       <footer>
-        <div id="footer" class="page__footer">
-        <footer>
-          <div class="newletter-container">
-            <p style="text-align:center; margin-bottom: 1rem;">Join me, let's grow together!</p>
-            <div id="sender-signup-form"></div>
-            <script>
-              (function(s,e,n,d,er){
-                s['Sender']=er;s[er]=s[er]||function(){(s[er].q=s[er].q||[]).push(arguments)};
-                var a=e.createElement(n);var m=e.getElementsByTagName(n)[0];
-                a.async=1;a.src=d;m.parentNode.insertBefore(a,m);
-              })(window,document,'script','https://cdn.sender.net/accounts_resources/universal.js','sender');
-              sender('bootWithTitle', 'aKrjOM');
-            </script>
-          </div>
-          {% include footer/custom.html %}
-          {% include_cached footer.html %}
-        </footer>
-</div>
+        <div class="newletter-container">
+          <p style="text-align:center; margin-bottom: 1rem;">Join me, let's grow together!</p>
+          <div id="sender-signup-form"></div>
+          <script>
+            (function(s,e,n,d,er){
+              s['Sender']=er;s[er]=s[er]||function(){(s[er].q=s[er].q||[]).push(arguments)};
+              var a=e.createElement(n);var m=e.getElementsByTagName(n)[0];
+              a.async=1;a.src=d;m.parentNode.insertBefore(a,m);
+            })(window,document,'script','https://cdn.sender.net/accounts_resources/universal.js','sender');
+            sender('bootWithTitle', 'aKrjOM');
+          </script>
+        </div>
         {% include footer/custom.html %}
         {% include_cached footer.html %}
       </footer>
