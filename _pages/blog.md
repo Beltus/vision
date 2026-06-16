@@ -34,6 +34,8 @@ List of all the articles in this blog is provided below.
   {% endfor %}
 </div>
 
+<div style="clear: both;"></div>
+
 <div style="margin-top: 2rem;">
   <p>Don't forget to subscribe and be part of an amazing journey.</p>
   <div id="sender-signup-form"></div>
