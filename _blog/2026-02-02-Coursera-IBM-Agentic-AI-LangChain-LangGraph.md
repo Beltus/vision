@@ -15,7 +15,6 @@ comments: true
 toc:
 toc_sticky:
 ---
-2026-02-02-Coursera-IBM-Agentic-AI-LangChain-LangGraph
 
 # Key Insights from the Coursera IBM Agentic AI with LangChain and LangGraph
 
