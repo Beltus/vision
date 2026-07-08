@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Related Articles."
+title: "Artificial Intelligence Related Articles."
 layout: single
 permalink: /ml/
 author_profile: true
@@ -10,8 +10,7 @@ entries_layout: grid
 classes: wide
 ---
 
-Welcome to the Machine Learning section of this blog. Feel
-free to check up any topic that piques your interest in machine learning and don't stop until you are saturated...
+Welcome to the Artificial Intelligence section of this blog. 
 
 
 <div class="grid__wrapper">
