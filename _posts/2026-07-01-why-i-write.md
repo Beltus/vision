@@ -1,7 +1,7 @@
 ---
 layout: single
 published: true
-title: Why I Write.
+title: Why I Write - A Poem.
 collection: sc
 author_profile: false
 read_time: true
@@ -16,12 +16,12 @@ toc_sticky: true
 ---
 
 
-# Why I Write.
+# Why I Write - A Poem
 
-![](https://cdn-images-1.medium.com/max/2600/1*eRJB4yWutktPNMhzyUYKLw.jpeg)
+![](https://beltus.github.io/vision/assets/images/eugene-chystiakov-writing.jpg)
 
-Photo by [Madhav Rajesh](https://unsplash.com/@madhav_rajesh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/crazy-face?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
+Photo by <a href="https://unsplash.com/@eugenechystiakov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eugene Chystiakov</a> on <a href="https://unsplash.com/photos/person-writing-on-white-paper-wcMysLw5ROM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
 
 I write for the pleasure of it. 
 
@@ -57,7 +57,17 @@ I am here now. You are here now. We are here now. Born into the age of digital m
 
 I don't need stones to etch my thoughts like Moses in the Bible. All I need is a tablet to engrave my words into the fabric of silicon, of course without the blood, sweat and tears of stone carving. 
 
-What a wonderful gift, this life is. Enjoy it with all it's pleasures - and writing is one of them - for thy cometh a time, where all will be lost and gone.  
+What a wonderful gift, this life is. Enjoy it with all it's pleasures - and writing is one of them - for thy cometh a time, where all will be lost and gone. 
+ 
+
+You can listen to the audio version of this poem here! (read by Lady N.)
+------
+
+<audio controls>
+  <source src="https://beltus.github.io/vision/assets/audio/why-i-write-v1-enhanced-v2_final.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 
 ### Thanks for Reading!
 
