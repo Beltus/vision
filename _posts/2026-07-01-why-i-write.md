@@ -18,10 +18,17 @@ toc_sticky: true
 
 # Why I Write - A Poem
 
-![](https://beltus.github.io/vision/assets/images/eugene-chystiakov-writing.jpg)
-
-Photo by <a href="https://unsplash.com/@eugenechystiakov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eugene Chystiakov</a> on <a href="https://unsplash.com/photos/person-writing-on-white-paper-wcMysLw5ROM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<img src="https://beltus.github.io/vision/assets/images/eugene-chystiakov-writing.jpg" alt="Person writing on white paper" style="width: 100%; border-radius: 6px;">
+<p style="font-size: 0.75rem; color: #8b949e; text-align: right; margin-top: 4px;">
+  Photo by <a href="https://unsplash.com/@eugenechystiakov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" style="color: inherit;">Eugene Chystiakov</a> on <a href="https://unsplash.com/photos/person-writing-on-white-paper-wcMysLw5ROM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" style="color: inherit;">Unsplash</a>
+</p>
       
+<p>🎧 <strong>Prefer to listen?</strong> Audio version read by <em>Lady N.</em></p>
+<audio controls preload="none" style="width: 100%; margin-bottom: 2rem;">
+  <source src="https://beltus.github.io/vision/assets/audio/why-i-write-v1-enhanced-v2_final.mp3" type="audio/mpeg">
+  <a href="https://beltus.github.io/vision/assets/audio/why-i-write-v1-enhanced-v2_final.mp3">Download the MP3</a>
+</audio>
+
 
 I write for the pleasure of it. 
 
@@ -60,16 +67,7 @@ I don't need stones to etch my thoughts like Moses in the Bible. All I need is a
 What a wonderful gift, this life is. Enjoy it with all it's pleasures - and writing is one of them - for thy cometh a time, where all will be lost and gone. 
  
 
-You can listen to the audio version of this poem here! (read by Lady N.)
-------
-
-<audio controls>
-  <source src="https://beltus.github.io/vision/assets/audio/why-i-write-v1-enhanced-v2_final.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-
-### Thanks for Reading!
+### Thanks for Reading and Listening!
 
 If you found this article helpful, feel free to reach out and connect with me...
 
