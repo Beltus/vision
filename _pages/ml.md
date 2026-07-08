@@ -4,7 +4,7 @@ layout: single
 permalink: /ml/
 author_profile: true
 header:
-    image: "https://beltus.github.io/vision/assets/images/ml_long.jpg"
+    image: "https://beltus.github.io/vision/assets/images/steve-a-johnson-unsplash.jpg"
 
 entries_layout: grid
 classes: wide
