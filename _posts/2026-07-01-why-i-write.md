@@ -67,7 +67,7 @@ I don't need stones to etch my thoughts like Moses in the Bible. All I need is a
 What a wonderful gift, this life is. Enjoy it with all it's pleasures - and writing is one of them - for thy cometh a time, where all will be lost and gone. 
  
 
-### Thanks for Reading and Listening!
+**Thanks for Reading and Listening!**
 
 If you found this article helpful, feel free to reach out and connect with me...
 
